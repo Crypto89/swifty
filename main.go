@@ -16,6 +16,7 @@ import (
 
 	"github.com/gophercloud/gophercloud"
 	"github.com/gophercloud/gophercloud/openstack"
+	"github.com/gorilla/handlers"
 
 	log "github.com/sirupsen/logrus"
 	kingpin "gopkg.in/alecthomas/kingpin.v2"
@@ -92,7 +93,9 @@ func main() {
 
 	go renewToken(ctx)
 
-	h := http.Server{Addr: *listenAddr, Handler: nil}
+	loggingHandler := handlers.LoggingHandler(os.Stdout, http.DefaultServeMux())
+
+	h := http.Server{Addr: *listenAddr, Handler: loggingHandler}
 
 	proxy := newProxy(*target)
 	http.Handle("/", wrap(proxy))

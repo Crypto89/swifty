@@ -1,0 +1,97 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "KmjnydoAbofMieIWm+it5OWERaM=",
+			"path": "github.com/alecthomas/template",
+			"revision": "a0175ee3bccc567396460bf5acd36800cb10c49c",
+			"revisionTime": "2016-04-05T07:15:01Z"
+		},
+		{
+			"checksumSHA1": "3wt0pTXXeS+S93unwhGoLIyGX/Q=",
+			"path": "github.com/alecthomas/template/parse",
+			"revision": "a0175ee3bccc567396460bf5acd36800cb10c49c",
+			"revisionTime": "2016-04-05T07:15:01Z"
+		},
+		{
+			"checksumSHA1": "fCc3grA7vIxfBru7R3SqjcW+oLI=",
+			"path": "github.com/alecthomas/units",
+			"revision": "2efee857e7cfd4f3d0138cc3cbb1b4966962b93a",
+			"revisionTime": "2015-10-22T06:55:26Z"
+		},
+		{
+			"checksumSHA1": "0AU4HIWLs5yyyZcZx8V+a9BFt9w=",
+			"path": "github.com/gophercloud/gophercloud",
+			"revision": "242a24b4f7bc39e508f1b1c7376874d636705a63",
+			"revisionTime": "2018-05-01T03:05:36Z"
+		},
+		{
+			"checksumSHA1": "lG5LU+1yLhJcbxmCYI7mdJncjPI=",
+			"path": "github.com/gophercloud/gophercloud/openstack",
+			"revision": "242a24b4f7bc39e508f1b1c7376874d636705a63",
+			"revisionTime": "2018-05-01T03:05:36Z"
+		},
+		{
+			"checksumSHA1": "oOJkelRgWx0NzUmxuI3kTS27gM0=",
+			"path": "github.com/gophercloud/gophercloud/openstack/identity/v2/tenants",
+			"revision": "242a24b4f7bc39e508f1b1c7376874d636705a63",
+			"revisionTime": "2018-05-01T03:05:36Z"
+		},
+		{
+			"checksumSHA1": "z5NsqMZX3TLMzpmwzOOXE4M5D9w=",
+			"path": "github.com/gophercloud/gophercloud/openstack/identity/v2/tokens",
+			"revision": "242a24b4f7bc39e508f1b1c7376874d636705a63",
+			"revisionTime": "2018-05-01T03:05:36Z"
+		},
+		{
+			"checksumSHA1": "2PYxD2MOrbp4JCWy5794sEtDYD4=",
+			"path": "github.com/gophercloud/gophercloud/openstack/identity/v3/tokens",
+			"revision": "242a24b4f7bc39e508f1b1c7376874d636705a63",
+			"revisionTime": "2018-05-01T03:05:36Z"
+		},
+		{
+			"checksumSHA1": "hOTxf5bdm8+cwSTO+OO/maDz6ss=",
+			"path": "github.com/gophercloud/gophercloud/openstack/utils",
+			"revision": "242a24b4f7bc39e508f1b1c7376874d636705a63",
+			"revisionTime": "2018-05-01T03:05:36Z"
+		},
+		{
+			"checksumSHA1": "jWdt1lN75UC0GrLG5Tmng+qP+ZI=",
+			"path": "github.com/gophercloud/gophercloud/pagination",
+			"revision": "242a24b4f7bc39e508f1b1c7376874d636705a63",
+			"revisionTime": "2018-05-01T03:05:36Z"
+		},
+		{
+			"checksumSHA1": "BYvROBsiyAXK4sq6yhDe8RgT4LM=",
+			"path": "github.com/sirupsen/logrus",
+			"revision": "89742aefa4b206dcf400792f3bd35b542998eb3b",
+			"revisionTime": "2017-08-22T13:27:46Z"
+		},
+		{
+			"checksumSHA1": "6U7dCaxxIMjf5V02iWgyAwppczw=",
+			"path": "golang.org/x/crypto/ssh/terminal",
+			"revision": "432090b8f568c018896cd8a0fb0345872bbac6ce",
+			"revisionTime": "2018-02-08T00:33:17Z"
+		},
+		{
+			"checksumSHA1": "3ntkZtxqR3HQb4Z0Oa+qyVEh2Ys=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "e82597366816b6fa799040628e95490bbf6e6b2b",
+			"revisionTime": "2017-10-24T07:53:40Z"
+		},
+		{
+			"checksumSHA1": "wGkVl9xZjgnLs/olurjDX2Yg8Xw=",
+			"path": "golang.org/x/sys/windows",
+			"revision": "e82597366816b6fa799040628e95490bbf6e6b2b",
+			"revisionTime": "2017-10-24T07:53:40Z"
+		},
+		{
+			"checksumSHA1": "sToCp8GThnMnsBzsHv+L/tBYQrQ=",
+			"path": "gopkg.in/alecthomas/kingpin.v2",
+			"revision": "947dcec5ba9c011838740e680966fd7087a71d0d",
+			"revisionTime": "2017-12-17T18:08:21Z"
+		}
+	],
+	"rootPath": "github.com/Crypto89/swifty"
+}

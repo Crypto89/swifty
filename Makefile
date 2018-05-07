@@ -11,5 +11,5 @@ clean:
 release: build
 	#@git tag -a v$(VERSION) -m "Release of version $(VERSION)"
 	#@git push --tags
-	@docker tag kmail crypto89/swifty:$(VERSION)
+	@docker tag swifty crypto89/swifty:$(VERSION)
 	@docker push crypto89/swifty:$(VERSION)
